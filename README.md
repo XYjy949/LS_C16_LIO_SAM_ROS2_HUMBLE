@@ -1,6 +1,6 @@
 # 据了解LIO_SAM目前只适配velodyne，ouster，liovx等雷达，目前公司里只有一台闲置的镭神C16-151B 16线雷达，该文档对其发射的具有XYZIRT信息的点云进行了与LIO—SAM代码的适配工作（点云格式转换、坐标系转换）
 # 以及涉及镭神用户手册中某些参数的调整
-# 对已经安装好的lidar-imu进行了第一次外参标定，但效果并不好（继续查手册查参数对标定进行校正）
+# 对已经安装好的lidar-imu进行了第一次外参标定，但效果并不好（继续查手册查参数对标定进行校正 3.27）
 
 **A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**
 
